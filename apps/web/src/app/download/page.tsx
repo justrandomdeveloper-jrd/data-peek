@@ -160,7 +160,9 @@ export default function DownloadPage() {
                   {platform.variants.map((variant) => (
                     <Link
                       key={variant.filename}
-                      href={`/releases/${variant.filename}`}
+                      href="https://github.com/Rohithgilla12/data-peek/releases"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="group flex items-center justify-between p-3 rounded-xl bg-[--color-background] border border-[--color-border] hover:border-[--color-accent]/50 hover:bg-[--color-accent]/5 transition-all"
                     >
                       <div className="flex items-center gap-3">
